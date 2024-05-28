@@ -11,3 +11,4 @@ function mdc(a, b) {
   let numero2 = 120;
   console.log("O MDC é: " + mdc(numero1, numero2));
   
+  module.exports = {mdc}
