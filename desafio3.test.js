@@ -1,7 +1,7 @@
-const calculaloMultiplos = require('./desafio3');
+const calculoMultiplos = require('./desafio3');
 
-test('should calculate correct sums for multiples of 5 and 7', () => {
-  const result = calculaloMultiplos();
+it('Deve calcular multiplos de 5 e 7 corretamente', () => {
+  const result = calculoMultiplos();
   
   
   const expectedmultiplos5 = 99500; 
